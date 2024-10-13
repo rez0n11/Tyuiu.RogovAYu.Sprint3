@@ -18,7 +18,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Tyuiu.RogovAYu.Sprint3.Task0.V9.Lib\Tyuiu.RogovAYu.Sprint3.Task0.V9.Lib.csproj" />
-    <ProjectReference Include="..\Tyuiu.RogovAYu.Sprint3.Task0.V9\Tyuiu.RogovAYu.Sprint3.Task0.V9.Lib.csproj" />
   </ItemGroup>
 
   <ItemGroup>
