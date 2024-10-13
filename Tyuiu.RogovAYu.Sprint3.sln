@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35303.130
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.RogovAYu.Sprint3", "Tyuiu.RogovAYu.Sprint3\Tyuiu.RogovAYu.Sprint3.csproj", "{DDFEA6BF-9C1D-4E83-BB38-2C1EC46DC2B1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task0", "Task0", "{82649A75-8820-4503-808C-8DF1F907774C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task1", "Task1", "{99C94D48-0FC6-45B7-B702-CA2DDF082788}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task2", "Task2", "{F23A3775-17D9-4138-BBA4-F4201FDE76D0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task3", "Task3", "{0292DA7C-4B5B-46DE-8A97-DE84B47F87D8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task4", "Task4", "{8A15BDF2-F352-41F7-B55A-1932C9527B8A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task5", "Task5", "{7A3DB6B6-DE3E-4C03-A0F1-5B9EEBB22C70}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task6", "Task6", "{282F4055-38EF-4BF4-8959-EC520C704B20}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task7", "Task7", "{D3866DEE-6133-4399-8EB1-2EFCEEE9CAEF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.RogovAYu.Sprint3.Task0.V9.Test", "Tyuiu.RogovAYu.Sprint3.Task0.V9.Test\Tyuiu.RogovAYu.Sprint3.Task0.V9.Test.csproj", "{FED916CA-AECC-4761-B910-39A17AC70299}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.RogovAYu.Sprint3.Task0.V9.Lib", "Tyuiu.RogovAYu.Sprint3.Task0.V9.Lib\Tyuiu.RogovAYu.Sprint3.Task0.V9.Lib.csproj", "{ED1F6CD9-C3BA-4D27-8AC8-06DA1DEF7521}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.RogovAYu.Sprint3.Task0.V9", "Tyuiu.RogovAYu.Sprint3.Task0.V9\Tyuiu.RogovAYu.Sprint3.Task0.V9.csproj", "{A328B893-0CCA-43C4-BEED-EAD8DC35D131}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DDFEA6BF-9C1D-4E83-BB38-2C1EC46DC2B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDFEA6BF-9C1D-4E83-BB38-2C1EC46DC2B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDFEA6BF-9C1D-4E83-BB38-2C1EC46DC2B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDFEA6BF-9C1D-4E83-BB38-2C1EC46DC2B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FED916CA-AECC-4761-B910-39A17AC70299}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FED916CA-AECC-4761-B910-39A17AC70299}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FED916CA-AECC-4761-B910-39A17AC70299}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FED916CA-AECC-4761-B910-39A17AC70299}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED1F6CD9-C3BA-4D27-8AC8-06DA1DEF7521}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED1F6CD9-C3BA-4D27-8AC8-06DA1DEF7521}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED1F6CD9-C3BA-4D27-8AC8-06DA1DEF7521}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED1F6CD9-C3BA-4D27-8AC8-06DA1DEF7521}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A328B893-0CCA-43C4-BEED-EAD8DC35D131}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A328B893-0CCA-43C4-BEED-EAD8DC35D131}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A328B893-0CCA-43C4-BEED-EAD8DC35D131}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A328B893-0CCA-43C4-BEED-EAD8DC35D131}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FED916CA-AECC-4761-B910-39A17AC70299} = {82649A75-8820-4503-808C-8DF1F907774C}
+		{ED1F6CD9-C3BA-4D27-8AC8-06DA1DEF7521} = {82649A75-8820-4503-808C-8DF1F907774C}
+		{A328B893-0CCA-43C4-BEED-EAD8DC35D131} = {82649A75-8820-4503-808C-8DF1F907774C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F66BFFE3-7492-4E8B-A83C-693D1930CE1B}
+	EndGlobalSection
+EndGlobal
