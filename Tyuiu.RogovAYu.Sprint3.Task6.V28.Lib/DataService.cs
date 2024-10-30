@@ -6,15 +6,15 @@ namespace Tyuiu.RogovAYu.Sprint3.Task6.V28.Lib
         public int GetSumTheDivisors(int startValue, int stopValue)
         {
             int res = 0;
-            int i = 0;
+            int i = 1;
             while (startValue<=stopValue)
             {
                 while (i<7) 
                 {
-                    if (startValue%(i+1)==0) { res++;}
+                    if (startValue%(i)==0) { res++;}
                     i++;
                 }
-                i = 0; startValue++;
+                i = 1; startValue++;
             }
             return res;
         }
