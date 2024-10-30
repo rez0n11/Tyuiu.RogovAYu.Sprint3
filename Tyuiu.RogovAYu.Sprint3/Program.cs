@@ -1,12 +1,13 @@
-﻿int a = 1;
-int b = 2;
+﻿int a = 2;
+int b = 4;
 int c = 3;
-int d = 4;
-for (int i = 1; i < 5; i++)
-{
-    a++;
-    b -= a;
-    c = b - a;
-    d = (c + a) + i;
+int d = 5;
+int i = 1;
+while (i < 4) { 
+    b++;
+b -= a;
+c = b - a;
+d = (c + a) + i;
+i++;
 }
 Console.WriteLine(d);

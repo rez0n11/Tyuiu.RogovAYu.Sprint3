@@ -17,7 +17,7 @@ namespace Tyuiu.RogovAYu.Sprint3.Task0.V9
             Console.WriteLine("* Вариант #9                                                              *");
             Console.WriteLine("* Выполнил: Рогов Александр Юрьевич |  ПКТб-24-1                          *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine("* Условие:Sum[Power[\\(40)Divide[1,3+Power[x,i]]\\(41),i],{i,1,15}], x=0.5*");
+            Console.WriteLine("* Условие:Sum[Power[\\(40)Divide[1,3+Power[x,i]]\\(41),i],{i,1,15}], x=0.5  *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Исходные данные:                                                        *");
             Console.Write("* x = ");
