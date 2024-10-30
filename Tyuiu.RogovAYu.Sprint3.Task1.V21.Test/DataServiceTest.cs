@@ -8,7 +8,13 @@ namespace Tyuiu.RogovAYu.Sprint3.Task1.V21.Test
         public void TestMethod1()
         {
             DataService ds = new();
-            Assert.AreEqual(16947800000, ds.GetMultiplySeries(1,1,12) );
+            Assert.AreEqual(16947810.88, ds.GetMultiplySeries(1,1,12) );
+        }
+        [TestMethod]
+        public void TestMethod2()
+        {
+            DataService ds = new();
+            Assert.AreEqual(4.296, ds.GetMultiplySeries(0, 1, 5));
         }
     }
 }

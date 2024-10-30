@@ -1,13 +1,5 @@
-﻿int a = 2;
-int b = 4;
-int c = 3;
-int d = 5;
-int i = 1;
-while (i < 4) { 
-    b++;
-b -= a;
-c = b - a;
-d = (c + a) + i;
-i++;
-}
-Console.WriteLine(d);
+﻿double res=Math.Pow((0.5+(1.0 /5.0))/(Math.Cos(0)+0.5),3);
+Console.WriteLine( res);
+Console.WriteLine(Math.Pow((0.7 / 1.5),3));
+Console.WriteLine(1.0 / 5.0);
+Console.WriteLine(Math.Cos(0));

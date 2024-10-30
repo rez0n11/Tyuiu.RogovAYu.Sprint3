@@ -6,12 +6,15 @@ namespace Tyuiu.RogovAYu.Sprint3.Task1.V21.Lib
         public double GetMultiplySeries(int value, int startValue, int stopValue)
         {
             double res=1;
-            while (startValue <= stopValue)
+            int i = startValue;
+            while (i <= stopValue)
             {
-                res*=(0.5+startValue/5)/(Math.Cos(value)+.5);
-                startValue++;
+                res*=Math.Pow((0.5+(i /5.0))/(Math.Cos(value)+0.5),3);
+                Console.WriteLine($"{i};{res}");
+                i++;
             }
-            return Math.Round(Math.Pow(res,3),3);
+            return Math.Round(res,2);
         }
     }
 }
+    
