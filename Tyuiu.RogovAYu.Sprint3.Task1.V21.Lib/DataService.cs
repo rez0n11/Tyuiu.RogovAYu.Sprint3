@@ -8,10 +8,10 @@ namespace Tyuiu.RogovAYu.Sprint3.Task1.V21.Lib
             double res=1;
             while (startValue <= stopValue)
             {
-                res*=Math.Pow((0.5+startValue/5)/(Math.Cos(value)+.5),3);
+                res*=(0.5+startValue/5)/(Math.Cos(value)+.5);
                 startValue++;
             }
-            return Math.Round(res,3);
+            return Math.Round(Math.Pow(res,3),3);
         }
     }
 }
