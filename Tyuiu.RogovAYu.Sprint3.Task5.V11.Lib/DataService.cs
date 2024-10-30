@@ -5,16 +5,20 @@ namespace Tyuiu.RogovAYu.Sprint3.Task5.V11.Lib
     {
         public double GetSumSumSeries(int x, int startValue1, int startValue2, int stopValue1, int stopValue2)
         {
-            double sum = 0;
-            for (int i = startValue1; i <= stopValue1; i++)
+            double esum=0,sum = 0;
+            int i = startValue1, k = startValue2;
+            while (i <= stopValue1)
             {
-                for (int k =  startValue2; k <= stopValue2; k++)
+                while (k <= stopValue2)
                 {
-                    sum += Math.Sin(k) + (x / 2);
+                    sum += Math.Sin(k) + 5 / 2.0;
+                    k++;
                 }
-                sum += sum;
+                esum += sum; i++;
+                sum = 0;
+                k = 1;
             }
-            return sum;
+            return Math.Round(esum,3);
         }
     }
 }
