@@ -10,7 +10,6 @@ namespace Tyuiu.RogovAYu.Sprint3.Task1.V21.Lib
             while (i <= stopValue)
             {
                 res*=Math.Pow((0.5+(i /5.0))/(Math.Cos(value)+0.5),3);
-                Console.WriteLine($"{i};{res}");
                 i++;
             }
             return Math.Round(res,2);
