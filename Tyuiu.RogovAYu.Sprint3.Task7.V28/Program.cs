@@ -31,7 +31,7 @@ namespace Tyuiu.RogovAYu.Sprint3.Task7.V28
             }
             Console.WriteLine("* Результат:                                                              *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine($"*  = {result}");
+            for (int i = 0; i < result.Length; i++) {Console.Write(result[i]+"\n");}
             Console.WriteLine("***************************************************************************");
             Console.ReadKey();
         }

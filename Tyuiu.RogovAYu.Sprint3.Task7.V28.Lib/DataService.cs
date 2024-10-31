@@ -9,15 +9,15 @@ namespace Tyuiu.RogovAYu.Sprint3.Task7.V28.Lib
             int i = 0;
             while (i < res.Length)
             {
-                if (startValue+i == 0) { res[0] = 0; i++; continue; }
-                res[i] = F(i);
+                if (startValue+i == 0) { res[i] = 0; i++; continue; }
+                res[i] = F(startValue+i);
                 i++;
             }
             return res ;
         }
         public double F(int x)
         {
-            return (Math.Cos(2 * x) + 2 * x + (Math.Sin(x)) / (x + 2.5));
+            return Math.Round((Math.Cos(2 * x) + 2 * x + (Math.Sin(x)) / (x + 2.5)),2);
         }
     }
 }
