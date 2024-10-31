@@ -9,7 +9,7 @@ namespace Tyuiu.RogovAYu.Sprint3.Task7.V28.Lib
             int i = 0;
             while (i < res.Length)
             {
-                if (startValue+i == 0) { res[i] = 0; i++; continue; }
+                if (startValue+i == 0) { res[i] = 1.0; i++; continue; }
                 res[i] = F(startValue+i);
                 i++;
             }
